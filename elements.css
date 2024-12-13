@@ -1,0 +1,94 @@
+body, html {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    width: 100%;
+    overflow-y: scroll;
+    background-color: white;
+}
+
+img {
+    max-width: 100% !important;
+    height: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, ul, ol {
+    margin-top: 0px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 34px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.container {
+    max-width: 1280px;
+    padding: 10px;
+}
+
+button {
+    background-color: #B88E2F;
+    border: none;
+}
+
+button:hover {
+    background-color: #a8832b;
+    cursor: pointer;
+}
+
+/*------------------------------------------------------------------*/
+
+@media(max-width: 1280px) {
+    h1 {
+        font-size: 35px;
+    }
+    
+    h2 {
+        font-size: 27px;
+    }
+    
+    h3 {
+        font-size: 22px;
+    }
+    
+    h4 {
+        font-size: 17px;
+    }
+}
+
+/*------------------------------------------------------------------*/
+
+@media(max-width: 768px) {
+    h1 {
+        font-size: 30px;
+    }
+    
+    h2 {
+        font-size: 22px;
+    }
+    
+    h3 {
+        font-size: 17px;
+    }
+    
+    h4 {
+        font-size: 12px;
+    }
+}
