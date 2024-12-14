@@ -1,0 +1,311 @@
+.inspiration {
+    background-color: #FCF8F3;
+    width: 100%;
+    height: 670px;
+    padding: 50px 0;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.inspiration .container {
+    margin: 0 auto;
+    display: flex;
+}
+
+.inspiration .container .block-title {
+    width: 40%;
+    padding-top: 115px;
+}
+
+.inspiration .container .block-title .title {
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.inspiration .container .block-title .sub-title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;   
+    max-width: 415px; 
+}
+
+.inspiration .container .block-title form button {
+    width: 176px;
+    height: 48px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.inspiration .container .block-content {
+    width: 60%;
+}
+
+.inspiration .container .block-content .product {
+    position: relative;
+}
+
+.inspiration .container .block-content .product .back-img {
+    position: absolute;
+}
+
+.inspiration .container .block-content .product .content {
+    position: absolute;
+    top: 427px;
+    left: 25px;
+    display: flex;
+}
+
+.inspiration .container .block-content .product .content .product-about {
+    width: 217px;
+    height: 130px;
+    background-color: rgba(255, 255, 255, 0.72);
+    backdrop-filter: blur(3px);
+    padding: 15px;
+}
+
+.inspiration .container .block-content .product .content .product-about .sub-title {
+    color: #616161;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.inspiration .container .block-content .product .content .product-about .sub-title span {
+    display: block;
+    width: 27px;
+    height: 1px;
+    margin: 0 10px;
+    background-color: #616161;
+}
+
+.inspiration .container .block-content .product .content .product-about .title {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33.6px;
+    margin: 0;
+}
+
+.inspiration .container .block-content .product .content form {
+    position: relative;
+    height: 130px;
+}
+
+.inspiration .container .block-content .product .content form button {
+    position: absolute;
+    bottom: 0;
+    width: 48px;
+    height: 48px;
+}
+
+.inspiration .container .block-content .product .slider-and-arrows .slider {
+    float: right;
+    width: 769px;
+    position: relative;
+    left: 450px;
+}
+
+.inspiration .container .block-content .product .slider-and-arrows .slider .slick-slide {
+    position: relative;
+    margin-right: 25px;
+    height: 510px;
+}
+
+.inspiration .container .block-content .product .slider-and-arrows .slider .slick-slide img {
+    width: 372px;
+    height: 486px;
+}
+
+.inspiration .container .block-content .product .slider-and-arrows .slider .slick-dots {
+    text-align: left;
+}
+
+.inspiration .container .block-content .product .slider-and-arrows .slider .slick-dots button {
+    border: 1px solid gray;
+    height: 11px;
+    width: 11px;
+    color: white;
+    background-color: gray;
+    font-weight: bold;
+    display: block;
+    padding: 0;
+    text-indent: -9999px;
+    border-radius: 100%
+}
+    
+.inspiration .container .block-content .product .slider-and-arrows .slider .slick-dots li.slick-active button {
+    border: 1px solid #B88E2F;
+    height: 11px;
+    width: 11px;
+    color: white;
+    background-color: #B88E2F;
+    outline: 1px solid #B88E2F;
+    outline-offset: 4px;
+}
+
+.inspiration .container .block-content .product .slider-and-arrows .arrows li {
+    list-style: none;
+    z-index: 1;
+}
+
+.inspiration .container .block-content .product .slider-and-arrows .arrows li.left-arrow {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 243px;
+    left: 415px;
+}
+    
+.inspiration .container .block-content .product .slider-and-arrows .arrows li.right-arrow {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 250px;
+    left: 738px;
+}
+
+.inspiration .container .block-content .product .slider-and-arrows .left-arrow:hover,
+.inspiration .container .block-content .product .slider-and-arrows .right-arrow:hover {
+    cursor: pointer;
+}
+
+/*------------------------------------------------------------------*/
+
+@media(max-width: 1280px) {
+    .inspiration {
+        padding-top: 0;
+        height: 750px;
+    }
+    
+    .inspiration .container {
+        display: block;
+    }
+
+    .inspiration .container .block-title {
+        width: 100%;
+        padding-top: 0;
+        text-align: center;
+    }
+
+    .inspiration .container .block-title .sub-title {
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    .inspiration .container .block-content {
+        width: 100%;
+    }
+
+    .inspiration .container .block-content .product .content,
+    .inspiration .container .block-content .product .back-img {
+        display: none;
+    }
+
+    .inspiration .container .block-content .product .slider-and-arrows .slider {
+        width: 750px;
+        left: 15px;
+        float: none;
+        margin: 0 auto;
+    }
+
+    .inspiration .container .block-content .product .slider-and-arrows .slider .slick-slide img {
+        width: 100%;
+    }
+
+    .inspiration .container .block-content .product .slider-and-arrows .slider .slick-dots {
+        text-align: center;
+    }
+
+    .inspiration .container .block-content .product .slider-and-arrows .arrows li.left-arrow {
+        top: 243px;
+        left: 105px;
+        width: 78px;
+        height: 78px;
+    }
+        
+    .inspiration .container .block-content .product .slider-and-arrows .arrows li.right-arrow {
+        top: 250px;
+        left: 825px;
+        width: 78px;
+        height: 78px;
+    }
+}
+
+/*------------------------------------------------------------------*/
+
+@media(max-width: 768px) {
+    .inspiration .container .block-content .product .slider-and-arrows .slider {
+        width: 425px;
+    }
+
+    .inspiration .container .block-content .product .slider-and-arrows .slider .slick-slide {
+        margin-right: 0;
+    }
+
+    .inspiration .container .block-content .product .slider-and-arrows .slider .slick-slide img {
+        width: 100%;
+    }
+
+    .inspiration .container .block-content .product .slider-and-arrows .slider .slick-dots {
+        text-align: center;
+    }
+
+    .inspiration .container .block-content .product .slider-and-arrows .arrows li.left-arrow {
+        top: 243px;
+        left: 140px;
+    }
+        
+    .inspiration .container .block-content .product .slider-and-arrows .arrows li.right-arrow {
+        top: 250px;
+        left: 565px;
+    }
+}
+
+/*------------------------------------------------------------------*/
+
+@media(max-width: 426px) {
+    .inspiration .container .block-content .product .slider-and-arrows .slider {
+        width: calc(100% - 30px);
+        left: 0;
+    }
+
+    .inspiration .container .block-content .product .slider-and-arrows .slider .slick-slide {
+        margin-right: none;
+    }
+
+    .inspiration .container .block-content .product .slider-and-arrows .arrows li.left-arrow {
+        left: -10px;
+    }
+        
+    .inspiration .container .block-content .product .slider-and-arrows .arrows li.right-arrow {
+        left: 345px;
+    }
+}
+
+/*------------------------------------------------------------------*/
+
+@media(max-width: 376px) {
+    .inspiration .container .block-content .product .slider-and-arrows .arrows li.left-arrow {
+        left: -10px;
+    }
+        
+    .inspiration .container .block-content .product .slider-and-arrows .arrows li.right-arrow {
+        left: 300px;
+    }
+}
+
+/*------------------------------------------------------------------*/
+
+@media(max-width: 320px) {
+    .inspiration .container .block-content .product .slider-and-arrows .arrows li.left-arrow {
+        left: -10px;
+    }
+        
+    .inspiration .container .block-content .product .slider-and-arrows .arrows li.right-arrow {
+        left: 240px;
+    }
+}
